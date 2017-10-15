@@ -10,47 +10,42 @@ html {
   box-sizing: inherit;
 }
 
-body {
+section {
+  max-width: 25em;
   padding: 0;
+  margin: 0;
   display: inline-block;
-  max-width: 25em;
-  text-align: center;
 }
 
-.pyramid {
-  max-width: 25em;
-}
-
-.pyramid img {
+section img {
   display: block;
-  margin: 0 auto 1rem;
+  width: 100%;
 }
 
-.khufu {
-  max-width: 25 em;
-}
-
-.khufu strong {
+section h2 {
   display: block;
-  margin-bottom: 1rem;
   font-size: 1.125rem;
   font-weight: bold;
+  text-align: left;
 }
 
-.khufu p {
+section p {
   display: block;
+  text-align: left;
+  margin: 1.5rem;
 }
 
-.khufu a {
+.btn a {
   display: inline-block;
   padding: .5em .75rem;
   background-color: #eee9de;
   border-color: #333;
   border-radius: 4px;
+  text-align: center;
   text-decoration: none;
 }
 
-.khufu a:hover {
+.btn a:hover {
   background-color: #666;
   color: #eee9de;
 }
