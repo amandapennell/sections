@@ -1,9 +1,8 @@
 html {
   box-sizing: border-box;
   font-family: Lato, sans-serif;
-  font-weight: normal;
-  background-color: #eee9de;
   color: #333;
+  background-color: #eee9de;
   line-height: 1.5;
 }
 
@@ -14,6 +13,7 @@ html {
 body {
   vertical-align: middle;
   margin: 0;
+  padding: 0;
 }
 
 section {
@@ -21,42 +21,52 @@ section {
   padding: 0;
   margin: 0;
   display: inline-block;
+  vertical-align: middle;
 }
 
 img {
   display: block;
   width: 100%;
+  margin: 1.5rem;
+  padding: 1em;
 }
 
 section h2 {
   display: block;
-  font-family: Lato, sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   font-weight: bold;
+  color: #333;
   text-align: left;
 }
 
 section p {
   display: block;
+  font-size: 1.25rem;
+  font-weight: normal;
   text-align: left;
-  font-family: Lato, sans-serif;
+  color: #333;
+  margin: 1.5rem;
+  padding: 1rem;
+}
+
+section .btn {
+  background-color: #eee9de;
+  border: 3px solid #333;
+  border-radius: 4px;
+  text-align: center;
+  display: block;
+}
+
+section .btn a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: .4em .75em .5em;
   margin: 1.5rem;
 }
 
-.btn {
-  padding: .5em .75rem;
-  background-color: #eee9de;
-  border-color: #333;
-  border-radius: 4px;
-}
-
-.btn a {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-}
-
-.btn a:hover {
+section .btn a:hover {
   background-color: #666;
   color: #eee9de;
 }
